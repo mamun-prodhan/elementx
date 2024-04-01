@@ -389,8 +389,8 @@
   background: linear-gradient(to right, #85cd17 0%, #fff 100%);
   border-radius: 10px;
   font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 4px;
+  font-weight: 600;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 /* section heading */
@@ -525,6 +525,52 @@
 
 .hidden-card h2 {
   margin-bottom: 13px;
+}
+/* about us section */
+.elementx-about-section {
+  margin-bottom: 140px;
+}
+.about-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 126px;
+}
+.about-image-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+.about-heading {
+  max-width: 561px;
+  margin-top: 6px;
+}
+.about-description {
+  max-width: 556px;
+  margin: 25px 0px;
+}
+.about-card {
+  display: flex;
+  column-gap: 25px;
+}
+.about-card .card:nth-child(1) {
+  background-color: #85cd17;
+}
+.about-card .card:nth-child(2) {
+  background-color: #ffd600;
+}
+.card {
+  padding: 25px;
+  border-radius: 5px;
+  width: 240px;
+}
+.card h4 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1440px) {
@@ -798,6 +844,26 @@
   .hidden-card {
     padding: 40px;
   }
+  /* about section start */
+  .elementx-about-section {
+    margin-bottom: 100px;
+  }
+  .about-content-wrapper {
+    gap: 50px;
+  }
+  .about-description {
+    margin: 20px 0px;
+  }
+  .card h4 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  .card p {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
 }
 
 /* --------------------tablet responsive-------------------- */
@@ -1013,6 +1079,19 @@
   .hidden-card {
     padding: 30px;
   }
+  /* about section start */
+  .elementx-about-section {
+    margin-bottom: 80px;
+  }
+  .about-content-wrapper {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 30px;
+  }
+  .about-description {
+    margin: 20px 0px;
+  }
 }
 
 /* --------------------mobile responsive-------------------- */
@@ -1144,5 +1223,18 @@
   }
   .hidden-card {
     padding: 30px;
+  }
+  /* about section start */
+  .about-card .card {
+    width: 150px;
+  }
+  .card {
+    padding: 15px;
+  }
+  .card h4 {
+    font-size: 18px;
+  }
+  .card p {
+    font-size: 14px;
   }
 }
