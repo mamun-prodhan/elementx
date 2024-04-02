@@ -648,6 +648,126 @@
         </div>
       </section>
       <!------------------------------- about us section end ----------------------------------->
+
+      <!------------------------------- faq section start ----------------------------------->
+      <section class="elementx-faq-section">
+        <div class="faq-container">
+          <div class="faq-content-wrapper">
+            <div class="faq-text">
+              <h2 class="section-heading">Frequently Asked Questions</h2>
+              <div class="faq-description">
+                <p class="section-description">
+                  We understand that you may have questions about ElementX and
+                  how our exclusive membership works. Here are some common
+                  queries addressed to provide clarity and ensure you have all
+                  the information.
+                </p>
+              </div>
+            </div>
+            <div class="faq-questions-container">
+              <div class="faq-question">
+                <div class="question">
+                  <p>How often is new content added to the library?</p>
+                  <img src="./assets/arrow-bottom.svg" alt="arrow" />
+                </div>
+                <div class="answer">
+                  <p>
+                    While we don't offer a trial period, we stand by a 100%
+                    satisfaction guarantee. If you're not delighted with your
+                    membership, contact us within [specified time frame] for a
+                    full refund.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-question">
+                <div class="question">
+                  <p>Can I use the elements for commercial projects?</p>
+                  <img src="./assets/arrow-bottom.svg" alt="arrow" />
+                </div>
+                <div class="answer">
+                  <p>
+                    While we don't offer a trial period, we stand by a 100%
+                    satisfaction guarantee. If you're not delighted with your
+                    membership, contact us within [specified time frame] for a
+                    full refund.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-question">
+                <div class="question">
+                  <p>Is there a trial period for the membership?</p>
+                  <img src="./assets/arrow-bottom.svg" alt="arrow" />
+                </div>
+                <div class="answer">
+                  <p>
+                    While we don't offer a trial period, we stand by a 100%
+                    satisfaction guarantee. If you're not delighted with your
+                    membership, contact us within [specified time frame] for a
+                    full refund.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-question">
+                <div class="question">
+                  <p>How do I cancel or modify my subscription?</p>
+                  <img src="./assets/arrow-bottom.svg" alt="arrow" />
+                </div>
+                <div class="answer">
+                  <p>
+                    While we don't offer a trial period, we stand by a 100%
+                    satisfaction guarantee. If you're not delighted with your
+                    membership, contact us within [specified time frame] for a
+                    full refund.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-question">
+                <div class="question">
+                  <p>How often is new content added to the library?</p>
+                  <img src="./assets/arrow-bottom.svg" alt="arrow" />
+                </div>
+                <div class="answer">
+                  <p>
+                    While we don't offer a trial period, we stand by a 100%
+                    satisfaction guarantee. If you're not delighted with your
+                    membership, contact us within [specified time frame] for a
+                    full refund.
+                  </p>
+                </div>
+              </div>
+              <div class="faq-question">
+                <div class="question">
+                  <p>How often is new content added to the library?</p>
+                  <img src="./assets/arrow-bottom.svg" alt="arrow" />
+                </div>
+                <div class="answer">
+                  <p>
+                    While we don't offer a trial period, we stand by a 100%
+                    satisfaction guarantee. If you're not delighted with your
+                    membership, contact us within [specified time frame] for a
+                    full refund.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------------------- faq section end ----------------------------------->
     </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const faqQuestions = document.querySelectorAll(".faq-question");
+
+        faqQuestions.forEach(function (question) {
+          const questionText = question.querySelector(".question");
+          const answer = question.querySelector(".answer");
+
+          questionText.addEventListener("click", function () {
+            answer.classList.toggle("active");
+          });
+        });
+      });
+    </script>
   </body>
 </html>
