@@ -68,6 +68,7 @@
   border-radius: 10px;
   color: #000000;
   display: inline-block;
+  border-bottom: 6px solid #529854;
 }
 .hero-image-wrapper img {
   max-width: 1280px;
@@ -617,7 +618,37 @@
   line-height: 1.5;
   color: #595f59;
 }
-
+/* journey section */
+.elementx-journey-section {
+  background-color: #162205;
+}
+.journey-content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 38px;
+  padding-bottom: 20px;
+}
+.journey-text-wrapper {
+  width: 50%;
+}
+.journey-image-wrapper {
+  width: 50%;
+}
+.journey-image-wrapper img {
+  max-width: 100%;
+  height: auto;
+  margin-top: -39px;
+}
+.journey-heading {
+  max-width: 713px;
+  margin-bottom: 51px;
+}
+.journey-heading h2 {
+  font-size: 70px;
+  line-height: 1.1;
+  color: white;
+}
 @media (max-width: 1440px) {
   .perfect-content-wrapper {
     max-width: 95%;
@@ -928,6 +959,13 @@
   .answer p {
     font-size: 16px;
   }
+  /* journey-section-start */
+  .journey-heading {
+    margin-bottom: 36px;
+  }
+  .journey-heading h2 {
+    font-size: 48px;
+  }
 }
 
 /* --------------------tablet responsive-------------------- */
@@ -1159,6 +1197,13 @@
   .elementx-faq-section {
     padding: 80px 0 80px 0;
   }
+  /* journey section */
+  .journey-heading {
+    margin-bottom: 26px;
+  }
+  .journey-heading h2 {
+    font-size: 30px;
+  }
 }
 
 /* --------------------mobile responsive-------------------- */
@@ -1306,5 +1351,15 @@
   }
   .question {
     gap: 15px;
+  }
+  /* journey section start */
+  .journey-content-wrapper {
+    flex-direction: column-reverse;
+  }
+  .journey-text-wrapper {
+    width: 100%;
+  }
+  .journey-image-wrapper {
+    width: 100%;
   }
 }
